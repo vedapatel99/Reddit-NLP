@@ -1,0 +1,5 @@
+# Ignore Jupyter Notebook Saves
+.ipynb_checkpoints
+
+# Ignore MacOS directory metadata file
+.DS_Store
