@@ -34,6 +34,19 @@ In order to gather enough data for modeling, you will likely need to use a very 
 
 ---
 
+## Checkpoints and Advice
+
+If you aren't familiar with [reddit](https://www.reddit.com/), go check it out and browse different subreddits. Each subreddit is like a forum on a different topic. [Here's a list of subreddits by topic.](https://www.reddit.com/r/ListOfSubreddits/wiki/listofsubreddits)
+
+- In your project you can classify posts, comments, titles, or some combination of those things. What you choose will partly determine how difficult your data cleaning will be and how challenging the classification task will be for your algorithms. In your presentation and executive summary, **tell us what you used**.
+- You can also include other information from posts or comments as features, but you must include some text.
+- You can make the project more challenging by choosing subreddits that are more similar.
+- **By the EOD Friday, 4/21/2023, please input your chosen subreddits into [this google form.](https://forms.gle/Z6Mu9PzCgtJo4NTi7)**
+- You should aim to have a function built to pull down data from the API by this date (4/21/23) as well.
+- The more data you can pull the better for your classifier. **You will want data from at least 3000 unique, non-null posts from each subreddit.**
+
+---
+
 ### Requirements
 
 - Gather and prepare your data using the `requests` library and PushShift API, or PRAW.
